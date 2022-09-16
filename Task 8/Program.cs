@@ -4,9 +4,9 @@ int N = Convert.ToInt32(Console.ReadLine());
 
 int[] array = new int[N];
 
- Console.WriteLine("Чётные числа: ");
- for (int i = 1; i <= N; i++)
+Console.WriteLine("Чётные числа: ");
+for (int i = 1; i <= N; i++)
     if (i % 2 == 0)
- Console.WriteLine(i);
+        Console.WriteLine(i);
 
 

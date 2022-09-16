@@ -13,9 +13,8 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 int max = num1;
 
-if(num2 > max) max = num2;
+if (num2 > max) max = num2;
 
-Console.Write("Число ");
-Console.Write(max);
-Console.Write(" большее из двух!");
+Console.Write($"Число {max} большее из двух!");
+
 
